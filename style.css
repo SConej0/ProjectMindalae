@@ -1,3 +1,47 @@
+:root{
+  --flex-direction: row
+}
+
 body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
   background: salmon;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  display: flex;
+}
+
+.flex {
+  display:flex;
+}
+
+.flex-center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.nav-item{
+  padding:5px;
+  border-right: 3px solid black;
+}
+
+.nav-item:last-child {
+  border-right: 0px;
+}
+
+#introduction {
+  width: 60%;
+  background: blue;
 }
