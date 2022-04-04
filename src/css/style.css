@@ -1,0 +1,78 @@
+:root{
+  --flex-direction: row
+}
+
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+article{
+  margin: 10px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: salmon;
+  height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+main {
+  display: flex;
+  height: 100%;
+}
+
+.container {
+  border-radius: 5px;
+}
+
+.flex {
+  display:flex;
+}
+
+.flex-center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar{
+  list-style: none;
+}
+
+.nav-item{
+  padding:5px 15px;
+  border-right: 2px solid black;
+  font-size: 21px;
+}
+
+.nav-item:last-child {
+  border-right: 0px;
+}
+
+.tab-selected{
+  padding: 0px 5px;
+  border-bottom: 2.5px solid black;
+}
+
+#introduction {
+  width: 60%;
+  background: lightblue;
+}
