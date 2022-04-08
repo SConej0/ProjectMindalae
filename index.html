@@ -5,31 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Mindalea</title>
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
   </head>
   <body>
-    <header class="flex">
-      <h1>Mindalea</h1>
-      <nav>
-        <ul class="flex navbar">
-          <li class="nav-item"><span class="tab-selected">Home</span></li>
-          <li class="nav-item">About</li>
-          <li class="nav-item">Tutorial</li>
-          <li class="nav-item">Tools</li>
-          <li class="nav-item">Contact Us</li>
-        </ul>
-      </nav>
+    <header class="flex flex-end">
+      <ul class="flex navbar">
+        <li class="nav-item"><span class="tab-selected">Home</span></li>
+        <li class="nav-item">About</li>
+        <li class="nav-item">Tutorial</li>
+        <li class="nav-item">Tools</li>
+        <li class="nav-item">Contact Us</li>
+      </ul>
     </header>
-    <main class="flex-center">
-      <div id="introduction" class="flex-center container">
-        <article>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, porro amet dolorem expedita laboriosam in eligendi atque cum architecto, maxime enim quasi inventore sequi reprehenderit doloremque at cumque accusamus iusto!
+    <main>
+      <section class="flex double-column column-width">
+        <article
+          id="introduction"
+          class="flex-center direction-column container"
+        >
+          <h1 id="home-title">Project Mindalea</h1>
+          <p>
+            Comprehensive, informative e-commerce for small business owners who
+            want to learn about the e-commerce world.
+          </p>
+          <i>
+            &#8595
+          </i>
         </article>
-        <article>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eius molestiae in error! Ut libero qui aliquid, ipsam ullam, sint incidunt eius laborum voluptatum sapiente pariatur ipsa laboriosam consequatur accusantium.
+        <figure>
+          <img src="http://placekitten.com/g/600/400" />
+        </figure>
+      </section>
+      <section class="flex double-column column-width">
+        <article
+          class="flex-center direction-column container"
+        >
+          <h2 id="home-title">What is the Mindalea Project?</h2>
+          <p>
+            A project aimed at empowering small business owners who have 
+            accomplished building a business to support their next generation,
+            but who need support adapting their business to a new generation.
+          </p>
+          <i>
+            &#8595
+          </i>
         </article>
-      </div>
+      </section>
+      <section class="flex double-column column-width">
+        <article
+          class="flex-center direction-column container"
+        >
+          <p>
+            That's where this site comes in!
+          </p>
+        </article>
+      </section>
     </main>
     <script src="./index.js"></script>
   </body>
