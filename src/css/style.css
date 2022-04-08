@@ -13,6 +13,10 @@
   font-size: 20px;
 }
 
+a{
+  text-decoration: none;
+}
+
 article{
   flex: 1;
   margin: 10px;
