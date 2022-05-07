@@ -62,19 +62,13 @@ h1{
 }
 
 header {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  max-height: 60px;
   background-color: var(--secondary-color);
-  align-items: center;
-  padding: 15px 10px 5px 10px;
+  padding: 0px 10px;
 }
 
 main {
   height: 100%;
   overflow: scroll;
-  margin-top: 60px;
 }
 
 section {
@@ -86,8 +80,7 @@ section {
   width: 90%;
 }
 
-.content-text {
-  font-size: 18px;
+.paragraph-text {
   text-align: left;
   padding: 5px 0px;
 }
@@ -100,27 +93,8 @@ section {
   flex-direction: column;
 }
 
-.double-column {
-  justify-content: space-between;
-  align-items: center;
-}
-
-.flex {
-  display:flex;
-}
-
-.flex-center{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-end{
-  justify-content: flex-end;
-}
-
-.navbar{
-  list-style: none;
+.content-width {
+  width: 85%;
 }
 
 .nav-item{
@@ -130,13 +104,33 @@ section {
   font-size: 21px;
 }
 
+.nav-item > a {
+  color: var(--quaternary-color);
+  text-decoration: none;
+  font-size: 21px;
+  padding: 0px 5px;
+}
+
 .nav-item:last-child {
   border-right: 0px;
 }
 
 .tab-selected{
-  padding: 0px 5px;
   border-bottom: 2.5px solid white;
+  padding: 0px 5px;
+}
+
+.text-xLarge{
+  font-size: 72px;
+}
+.text-large{
+  font-size: 30px;
+}
+.text-medium{
+  font-size: 18px;
+}
+.text-small{
+  font-size: 12px;
 }
 
 #home-title {
@@ -146,5 +140,6 @@ section {
 #introduction {
   justify-content: space-around;
   max-width: 45%;
+  height: 100%;
   color: var(--tertiary-color)
 }
