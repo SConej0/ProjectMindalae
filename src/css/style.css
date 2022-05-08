@@ -4,6 +4,7 @@
   --secondary-color: #33658a;
   --tertiary-color: #ebf2fa;
   --quaternary-color: #ffbf46;
+  --nav-border-size : 2px;
 }
 
 *{
@@ -100,7 +101,7 @@ section {
 .nav-item{
   color: white;
   padding:5px 15px;
-  border-right: 2px solid white;
+  border-right: var(--nav-border-size) solid white;
   font-size: 21px;
 }
 
@@ -142,4 +143,11 @@ section {
   max-width: 45%;
   height: 100%;
   color: var(--tertiary-color)
+}
+
+@media only screen 
+and (max-width : 992px) {
+  :root {
+    --nav-border-size : 0px
+  }
 }
