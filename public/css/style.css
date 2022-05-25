@@ -1,6 +1,7 @@
 :root{
   --flex-direction: row;
   --primary-color: #042333;
+  --bs-primary-rgb: #042333;
   --secondary-color: #33658a;
   --tertiary-color: #ebf2fa;
   --quaternary-color: #ffbf46;
@@ -93,6 +94,22 @@ section {
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
 }
 
+.color-primary {
+  background-color: var(--primary-color);
+}
+
+.color-secondary {
+  background-color: var(--secondary-color);
+}
+
+.color-tertiary {
+  background-color: var(--tertiary-color);
+}
+
+.color-quaternary{
+  background-color: var(--quaternary-color)
+}
+
 .goto-top {
   display: inline-block;
   font-weight: 400;
@@ -174,8 +191,20 @@ section {
   font-size: 12px;
 }
 
+.text-primary{
+  color: var(--primary-color);
+}
+
 .text-tertiary{
-  color: var(--tertiary-color)
+  color: var(--tertiary-color);
+}
+
+.text-quaternary{
+  color: var(--quaternary-color);
+}
+
+.btn:hover{
+  color: #7e6330;
 }
 
 #home-title {
