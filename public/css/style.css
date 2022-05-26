@@ -1,4 +1,9 @@
 :root{
+  --h1-size: 48px;
+  --h2-size: 40px;
+  --btn-padding: 1rem;
+  --btn-text-size: 32px;
+  --goto-text-size: 24px;
   --flex-direction: row;
   --primary-color: #042333;
   --bs-primary-rgb: #042333;
@@ -8,6 +13,7 @@
   --nav-border-size : 2px;
   --pane-height : 550px;
   --column-width : 70%;
+  --text-alignment : left ;
 }
 
 *{
@@ -44,14 +50,14 @@ h1,h2,h3,h4,h5,h6{
 
 h1{
   color:var(--quaternary-color);
-  font-size: 48px;
+  font-size: var(--h1-size);
   font-weight: 800;
   margin-bottom: 1rem;
 }
 
 h2{
   color:var(--tertiary-color);
-  font-size: 40px;
+  font-size: var(--h2-size);
   font-weight: 800;
   margin: 1rem;
 }
@@ -89,8 +95,8 @@ section {
   background-color: #042333;
   border: 1px solid var(--quaternary-color);
   border-radius: 5px;
-  padding: 1rem 1rem;
-  font-size: 32px;
+  padding: var(--btn-padding);
+  font-size: var(--btn-text-size);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
 }
 
@@ -126,7 +132,7 @@ section {
   border: 1px solid var(--quaternary-color);
   border-radius: 5px;
   padding: 0.25rem 0.25rem;
-  font-size: 24px;
+  font-size: var(--goto-text-size);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
 }
 
@@ -144,6 +150,10 @@ section {
 
 .content-width {
   width: 85%;
+}
+
+.mb-6 {
+  margin-bottom: 7rem !important;
 }
 
 .nav-item{
@@ -176,6 +186,10 @@ section {
 .tab-selected{
   border-bottom: 2.5px solid white;
   padding: 0px 5px;
+}
+
+.textCenter {
+  text-align: var(--text-alignment);
 }
 
 .text-xLarge{
@@ -233,7 +247,17 @@ and (max-width : 1200px) {
 @media only screen 
 and (max-width : 992px) {
   :root {
+    --h1-size: 38px;
+    --h2-size: 30px;
+    --btn-padding: 0.25rem;
+    --btn-text-size: 24px;
+    --goto-text-size: 18px;
     --nav-border-size : 0px;
     --pane-height : 850px;
+    --text-alignment : center;
+  }
+
+  .mb-sm-6{
+    margin-bottom: 7rem !important;
   }
 }
