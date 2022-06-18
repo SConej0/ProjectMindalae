@@ -46,6 +46,11 @@ body{
   height: 100vh;
 }
 
+footer{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -66,6 +71,11 @@ h2{
 
 header {
   background-color: var(--secondary-color);
+}
+
+hr{
+	border: 0;
+	border-top: 1px solid #094CFA;
 }
 
 main {
@@ -154,6 +164,10 @@ section {
   width: 85%;
 }
 
+.my-6 {
+  margin: 7rem 0rem !important;
+}
+
 .mb-6 {
   margin-bottom: 7rem !important;
 }
@@ -235,7 +249,8 @@ section {
 }
 
 #toolsImage {
-  width: 50%;
+  width: 100%;
+  object-fit: cover;
 }
 
 
