@@ -29,7 +29,6 @@ a{
 }
 
 article{
-  flex: 1;
   margin: 10px;
   color: var(--tertiary-color)
 }
@@ -90,6 +89,11 @@ p {
 section {
   margin:auto;
   min-height:100%;
+}
+
+.arrow-cont{
+  font-size: 72px;
+  color: var(--tertiary-color)
 }
 
 .button-links {
@@ -235,10 +239,6 @@ section {
 
 .btn:hover{
   color: #7e6330;
-}
-
-#home-title {
-  padding-left: 2%;
 }
 
 #introduction {
