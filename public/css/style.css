@@ -16,6 +16,7 @@
   --pane-height : 550px;
   --column-width : 70%;
   --text-alignment : left ;
+  --display-type : inline;
 }
 
 *{
@@ -114,6 +115,10 @@ section {
   padding: var(--btn-padding);
   font-size: var(--btn-text-size);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out
+}
+
+.mobile-break{
+  display:var(--display-type)
 }
 
 .color-primary {
@@ -276,6 +281,21 @@ and (max-width : 992px) {
     --nav-border-size : 0px;
     --pane-height : 850px;
     --text-alignment : center;
+    --display-type : block;
+  }
+
+  .mt-sm {
+    margin-top: 0.5rem;
+  }
+
+  .my-sm {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .mx-sm {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 
   .mb-sm-6{
