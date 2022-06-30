@@ -262,9 +262,10 @@ section {
 
 
 @media only screen 
-and (max-width : 1200px) {
+and (max-width : 1280px) {
   :root {
-    --nav-border-size : 0px;
+    --h1-size: 38px;
+    --h2-size: 30px;
     --pane-height : 770px;
     --column-width : 80%;
   }

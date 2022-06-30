@@ -1,0 +1,27 @@
+{
+    "com" : {
+        "Title" : "Project Mindalae",
+        "Footer" : "This project was funded through the project Learning from Community Stories – the Impacts of COVID-19 by Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
+    },
+    "nav" : {
+        "Home" : "Home",
+        "About" : "About",
+        "GettingStarted" : "Getting Started",
+        "Tools" : "Tools",
+        "ContactUs" : "Contact Us",
+        "Donate" : "Donate"
+    },
+    "index" : {
+        "p-1" : "Comprehensible e-commerce information for small business owners who want to learn about tools needed to set-up their store.",
+        "h4" : "Photo by ",
+        "h1" : "What is the Mindalae Project?",
+        "p-2" : "Learn More",
+        "p-3" : "A project focused on accesibility and simplicity, aimed at empowering small business owners on their e-commerce journey.",
+        "p-4" : "That's where this site comes in!"
+    },
+    "about" : { "p1" : "yeet" },
+    "gettingStarted" : { "p1" : "yeet" },
+    "tools" : { "p1" : "yeet" },
+    "contactUs" : { "p1" : "yeet" },
+    "donate" : { "p1" : "yeet" }
+}
