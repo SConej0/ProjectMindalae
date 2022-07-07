@@ -56,7 +56,7 @@ class Translator {
       } else if (text.includes('nav')){
         element.innerHTML = es.nav[text.substr(3)]
       } else {
-        element.innerHTML = es.index[text]
+        element.innerHTML = es[pageName][text]
       }
     }
     this._elements.forEach(replace);
