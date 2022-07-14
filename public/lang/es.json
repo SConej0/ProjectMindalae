@@ -1,6 +1,8 @@
 {
     "com" : {
         "Title" : "Project Mindalae",
+        "BackToTop" : "Back To Top",
+        "References" : "References",
         "Footer" : "This project was funded through the project Learning from Community Stories – the Impacts of COVID-19 by Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
     },
     "nav" : {
@@ -37,7 +39,9 @@
         "p-1" : "Furthermore, the integration of e-commerce with the Metaverse highlights the skill gap needed to stay profitable in the open market of today. The question that remains is, how will small businesses that cannot afford to participate in such spaces be affected? More specifically, immigrant parents that focused on surviving and did not have the time or tools to gain the relevant technical knowledge.",
         "p-2" : "By giving small business owners the tools to start a website, we hope to empower them and close the technological skills gap around e-commerce. We know that it will not happen over night, but we hope that they feel empowered and their websites become another sustainable form of income for them and their families."
     },
-    "gettingStarted" : { "p1" : "yeet" },
+    "gettingStarted" : {
+        
+    },
     "tools" : { "p1" : "yeet" },
     "contactUs" : { "p1" : "yeet" },
     "donate" : { "p1" : "yeet" }
