@@ -55,55 +55,55 @@
     "hostingSetupHostingService": "Un <strong>servicio de alojamiento</strong> es el sitio que almacena todos sus datos, también conocido como todo lo que pondrá en el sitio web, desde texto hasta mercadería. Un sitio de alojamiento literalmente lo hospedará. Piense en ello como un espacio que alquila para su tienda. Es por eso que cuando junta el dominio y el sitio de alojamiento, es como si el dominio fuera el signo de su empresa y el sitio de alojamiento fuera su tienda, y ahora puede comenzar a diseñar el sitio web.",
     "hostingSetupPrices": "Precios",
     "hostingSetupBuildPricing": "Según WebsiteBuilderExpert, los precios pueden oscilar entre $2.49 – $13.95/mes por <strong>alojamiento compartido</strong> y $80 – $506/mes por <strong>alojamiento dedicado</strong>.",
-    "hostingSetupHostingDiff": "The difference between the two hosting options is, <strong>dedicated hosting</strong> is more secure than <strong>shared hosting</strong> since it’s not on a shared server like shared hosting is. It’s on its own server. From a user’s perspective, loading a website on a dedicated hosting server is faster.",
+    "hostingSetupHostingDiff": "La diferencia entre las dos opciones de alojamiento es, <strong>alojamiento dedicado</strong> es más seguro que <strong>alojamiento compartido</strong> ya que no está en un servidor compartido como lo está el alojamiento compartido. Está en su propio servidor. Desde la perspectiva del usuario, cargar un sitio web en un servidor de alojamiento dedicado es más rápido.",
     "refCostToHost": "Website Builder Expert: Cost to host a website",
-    "headerBrandEmail": "Brand Email",
-    "brandEmailCustomers": "In order for customers to contact you or carry out other actions under the business, a business/brand email is very important. Make sure it contains your business name in it, for example, 'businessname@gmail.com'. It keeps you organized by separating personal email from business email. Each website builder like Wix, Square, etc, has different package levels where you can check whether they provide a custom email. There are also email campaigns that are an add-on.",
-    "brandEmailLinkBelow": "The link below compares the tools and features of the 11 best websites for 2022. By clicking on “Read Review”, it will open another tab just about that website builder and under Tools and Features you can find Email Marketing.",
+    "headerBrandEmail": "Correo Electrónico de la Marca",
+    "brandEmailCustomers": "Para que los clientes se comuniquen con usted o realicen otras acciones en el marco del negocio, es muy importante un correo electrónico comercial/de marca. Asegúrese de que contenga el nombre de su empresa, por ejemplo, 'nombredeempresa@gmail.com'. Lo mantiene organizado al separar el correo electrónico personal del correo electrónico comercial. Cada creador de sitios web como Wix, Square, etc., tiene diferentes niveles de paquetes en los que puede verificar si brindan un correo electrónico personalizado. También hay campañas de correo electrónico que son un complemento.",
+    "brandEmailLinkBelow": "El siguiente enlace compara las herramientas y características de los 11 mejores sitios web para 2022. Al hacer clic en “Read Review”, abrirá otra pestaña sobre ese creador de sitios web y en 'Tools and Features' puede encontrar 'Email Marketing'.",
     "refBuilderReviews": "Best Website Builder 2022: We’ve Reviewed the 11 Best",
-    "headerExtraTips": "Extra Tips",
-    "extraTipsBiggestTip": "One of the biggest tips I can give from experience is, just do it. Creating a website and dealing with technology can be daunting and can sound like a lot. But if you truly feel like it is time and it is what you want to do. Do it. Take it step by step and enjoy the process. It is going to be hard work but it will also be fun.",
-    "extraTipsImportantMarketing": "Marketing is very important for the success of your business aside from attending festivals. If you do it well and long enough, marketing can increase your sales. It allows your website to be like another booth/store. The key here is to be consistent, get strategic and creative, but above all consistent since it will take time.",
-    "extraTipsConsiderThis": "Some thing to consider is, really get to know your audience and think about who they are. This will help you relate and cater more to your customers in the design and marketing of your website.",
-    "extraTipsTakePhotos": "Take photos of products before you publish your website so you can bulk upload them onto the website instead of going back and forth.",
-    "extraTipsCopyAi": "An AI copywriting software like CopyAI can help you write your marketing content, but make sure your business' voice is coming through."
+    "headerExtraTips": "Consejos Adicionales",
+    "extraTipsBiggestTip": "Uno de los mejores consejos que puedo dar por experiencia es, simplemente hazlo. Crear un sitio web y lidiar con la tecnología puede ser desalentador y puede parecer mucho. Pero si realmente sientes que es el momento y es lo que quieres hacer. Hazlo. Ve paso a paso y disfruta del proceso. Va a ser un trabajo duro, pero también será divertido y gratificante.",
+    "extraTipsImportantMarketing": "El marketing es muy importante para el éxito de su negocio además de asistir a festivales. Si lo hace bien y durante el tiempo suficiente, el marketing puede aumentar sus ventas. Permite que su sitio web sea otra tienda. La clave aquí es ser consistente, ser estratégico y creativo, pero sobre todo consistente ya que llevará tiempo..",
+    "extraTipsConsiderThis": "Algo a considerar es, conocer realmente a su audiencia y pensar en quiénes son. Esto te ayudará a relacionarte y atender más a tus clientes en el diseño y marketing de tu sitio web.",
+    "extraTipsTakePhotos": "Tome fotos de los productos antes de publicar su sitio web para que pueda cargarlos de forma masiva en el sitio web en lugar de ir y venir.",
+    "extraTipsCopyAi": "Un software de redacción de IA como CopyAI puede ayudarlo a escribir su contenido de marketing, pero asegúrese de que la voz de su empresa llegue."
   },
   "tools": {
-    "toolsIntro": "On this page you will find tools, resources and vocabulary that will help you navigate creating your e-commerce website.",
-    "toolsWebLink": "Website Tools",
-    "toolsDesignLink": "Design Tools",
-    "toolsMarketingLink": "Marketing Tools",
+    "toolsIntro": "En esta página encontrarás herramientas, recursos y vocabulario que te ayudarán a navegar creando tu sitio web de comercio electrónico.",
+    "toolsWebLink": "Herramientas del Sitio Web",
+    "toolsDesignLink": "Herramientas de Diseño",
+    "toolsMarketingLink": "Herramientas de Marketing",
     "cards": {
       "websiteTools": [
         {
           "type": "Wix",
           "url": "https://www.wix.com/ecommerce/website",
           "imgSrc": "Wix.png",
-          "desc": "Create an online store with the leading eCommerce platform"
+          "desc": "Crea una tienda en línea con la plataforma de comercio electrónico líder"
         },
         {
           "type": "Square Space",
           "url": "https://www.squarespace.com/ecommerce-website",
           "imgSrc": "Squarespace.png",
-          "desc": "Create a website that helps your business attract."
+          "desc": "Cree un sitio web que ayude a su negocio a atraer"
         },
         {
           "type": "Weebly",
           "url": "https://www.weebly.com/features/ecommerce-website",
           "imgSrc": "Weebly.png",
-          "desc": "A surprisingly easy way to sell your products online."
+          "desc": "Una manera sorprendentemente fácil de vender sus productos en línea"
         },
         {
           "type": "Shopify",
           "url": "https://www.shopify.com/tour/ecommerce-website",
           "imgSrc": "Shopify.png",
-          "desc": "Easily build and run your ecommerce website."
+          "desc": "Cree y ejecute fácilmente su sitio web de comercio electrónico"
         },
         {
           "type": "Wordpress",
           "url": "https://wordpress.com/ecommerce/",
           "imgSrc": "Wordpress.png",
-          "desc": "Everything you need for a powerful, profitable site."
+          "desc": "Todo lo que necesita para un sitio poderoso y rentable"
         }
       ],
       "designTools": [
@@ -111,25 +111,25 @@
           "type": "Excalidraw",
           "url": "https://excalidraw.com/",
           "imgSrc": "excalidraw.png",
-          "desc": "A free app where you can draw your website ideas and more. Make sure to download and to save!"
+          "desc": "Una aplicación gratuita donde puedes dibujar las ideas de tu sitio web y más. ¡Asegúrate de descargar y guardar!"
         },
         {
           "type": "GoogleFonts",
           "url": "https://fonts.google.com/",
           "imgSrc": "googleFonts.jpg",
-          "desc": "Where you can find free fonts to plug into your site."
+          "desc": "Dónde puede encontrar fuentes gratuitas para conectar a su sitio"
         },
         {
           "type": "Unsplash",
           "url": "https://unsplash.com/",
           "imgSrc": "Unsplash.png",
-          "desc": "Where you can find free photos that you can download and use."
+          "desc": "Donde puedes encontrar fotos gratis que puedes descargar y usar"
         },
         {
           "type": "Canva",
           "url": "https://www.canva.com/learn/ecommerce-website/",
           "imgSrc": "canva.jpg",
-          "desc": "Templates to help you design the perfect e-commerce website."
+          "desc": "Plantillas para ayudarlo a diseñar el sitio web de comercio electrónico perfecto"
         }
       ],
       "marketingTools": [
@@ -137,28 +137,28 @@
           "type": "Trello",
           "url": "https://trello.com/en-US",
           "imgSrc": "Trello.jpg",
-          "desc": "A free organization board that resembles sticky notes to make sure your tasks are on track."
+          "desc": "Un tablero de organización gratuito que se asemeja a notas adhesivas para asegurarse de que sus tareas estén en orden"
         },
         {
           "type": "Later",
           "url": "https://later.com/",
           "imgSrc": "Later.png",
-          "desc": "Allows you to schedule your instagram posts so you can save time and not have to do it every time you want to post."
+          "desc": "Te permite programar tus publicaciones de instagram para que ahorres tiempo y no tengas que hacerlo cada vez que quieras publicar"
         },
         {
           "type": "CopyAi",
           "url": "https://www.copy.ai/",
           "imgSrc": "copyai.webp",
-          "desc": "Generate content to assit in marketing your business."
+          "desc": "Genere contenido para ayudar en la comercialización de su negocio"
         }
       ]
     }
   },
   "contactUs": {
-    "anyQuestions": "If you have questions or feedback please reach out to us ",
-    "emailLink": "here"
+    "anyQuestions": "Si tiene preguntas o comentarios, comuníquese con nosotros ",
+    "emailLink": "aquí"
   },
   "donate": {
-    "beingDeveloped": "This page is still being developed! We appreciate your support"
+    "beingDeveloped": "¡Esta página aún se está desarrollando! Agradecemos su apoyo."
   }
 }
