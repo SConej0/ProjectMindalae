@@ -1,43 +1,43 @@
 {
   "com": {
-    "Title": "Project Mindalae",
+    "Title": "Proyecto Mindalae",
     "BackToTop": "Back To Top",
     "References": "References",
-    "Footer": "This project was funded through the project Learning from Community Stories – the Impacts of COVID-19 by Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
+    "Footer": "Este proyecto fue financiado a través del proyecto Learning from Aprendiendo de las Historias de la Comunidad: los Impactos de COVID-19 por Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
   },
   "nav": {
-    "Home": "Home",
-    "About": "About",
-    "GettingStarted": "Getting Started",
-    "Tools": "Tools",
-    "ContactUs": "Contact Us",
-    "Donate": "Donate"
+    "Home": "Inicio",
+    "About": "Acerca de",
+    "GettingStarted": "Empezando",
+    "Tools": "Heramientas",
+    "ContactUs": "Contactanos",
+    "Donate": "Donar"
   },
   "index": {
-    "p-1": "Comprehensible e-commerce information for small business owners who want to learn about tools needed to set-up their store.",
-    "h4": "Photo by ",
-    "h1": "What is the Mindalae Project?",
-    "p-2": "Learn More",
-    "p-3": "A project focused on accesibility and simplicity, aimed at empowering small business owners on their e-commerce journey.",
-    "p-4": "That's where this site comes in!"
+    "p-1": "Información comprensible de comercio electrónico para propietarios de pequeñas empresas que desean conocer las herramientas necesarias para configurar su tienda.",
+    "h4": "Foto por",
+    "h1": "Que es el Proyecto Mindalae?",
+    "p-2": "Aprende Mas",
+    "p-3": "Un proyecto centrado en la accesibilidad y la simplicidad, destinado a empoderar a los propietarios de pequeñas empresas en su viaje de comercio electrónico.",
+    "p-4": "¡Ahí es donde entra este sitio web!"
   },
   "about": {
-    "ourPurpose": "Our Purpose",
-    "ourVision": "Our Vision",
-    "theTeam": "The Team",
-    "school1": "M.A. in Policy Studies, B.A. in Environmental Studies",
-    "posTitle1": "Project Lead & Generator of Useful Ideas",
-    "funFact1": "Got extra credit in philosophy class",
-    "school2": "B.S. in Electrical Engineering",
-    "posTitle2": "Developer & Generator of Sometimes Useful Ideas",
-    "funFact2": "Did research on the language of crows",
-    "s-1": "This project is part of King County Communities of Opportunity's grant project that looked at the resilience of the Pueblo's Originarios Coalition during the pandemic. After 78 interviews, representing  3 different communities, this project was created in response to the Kichwa-Otavalo Community.",
-    "s-2": "The Kichwa-Otavalo Community primarily consists of small business owners who travel to fairs to sell their products or play traditional Andes music at festivals. While this community are experts with the work they do in person, the pandemic highlighted a tech skill gap on the integration of technology into their work.",
-    "s-3": "There is a lot of information about e-commerce online and loads of website builders. However, there lies the problem, there are too many options.",
-    "s-4": "For this generation using a search engine is second nature. However, after a years work with different BIPOC communities, it has become clear that gathering resources online is not easy for everyone and most people do not have the time. ",
-    "s-5": "To start addressing this, this project focuses on making it easier for the Kichwa community and BIPOC business owners alike to expand their business onto an online platform, by creating an easy to navigate hub spot where e-commerce related information is accessible in Spanish & English.",
-    "p-1": "Furthermore, the integration of e-commerce with the Metaverse highlights the skill gap needed to stay profitable in the open market of today. The question that remains is, how will small businesses that cannot afford to participate in such spaces be affected? More specifically, immigrant parents that focused on surviving and did not have the time or tools to gain the relevant technical knowledge.",
-    "p-2": "By giving small business owners the tools to start a website, we hope to empower them and close the technological skills gap around e-commerce. We know that it will not happen over night, but we hope that they feel empowered and their websites become another sustainable form of income for them and their families."
+    "ourPurpose": "Nuestro Propósito",
+    "ourVision": "Nuestra Visión",
+    "theTeam": "El Equipo",
+    "school1": "Maestría en Estudios de Políticas, Licenciatura en Estudios Ambientales",
+    "posTitle1": "Líder de Proyecto y Generador de Ideas Útiles",
+    "funFact1": "Obtuve crédito extra en la clase de filosofía.",
+    "school2": "Licenciatura en Ingeniería Eléctrica",
+    "posTitle2": "Desarrollador y Generador de Ideas a Veces Útiles",
+    "funFact2": "Investigué sobre el lenguaje de los cuervos.",
+    "s-1": "Este proyecto es parte del proyecto de subvención de King County Communities of Opportunity que analizó la resiliencia de la Coalición de Pueblos Originarios durante la pandemia. Luego de 78 entrevistas, representando a 3 comunidades diferentes, se crea este proyecto en respuesta a la Comunidad Kichwa-Otavalo.",
+    "s-2": "La Comunidad Kichwa-Otavalo se compone principalmente de pequeños empresarios que viajan a ferias para vender sus productos o tocar música tradicional Andina en festivales. Si bien esta comunidad es experta en el trabajo que realiza en persona, la pandemia destacó una brecha de habilidades tecnológicas en la integración de la tecnología en su trabajo.",
+    "s-3": "Hay mucha información sobre el comercio electrónico en línea y muchos creadores de sitios web. Sin embargo, ahí está el problema, hay demasiadas opciones.",
+    "s-4": "Para esta generación, usar un motor de búsqueda es una segunda naturaleza. Sin embargo, después de un año de trabajo con diferentes comunidades BIPOC, ha quedado claro que recopilar recursos en línea no es fácil para todos y la mayoría de los dueños de negocios tienen una cantidad limitada de tiempo para hacerlo. ",
+    "s-5": "Para comenzar a abordar esto, este proyecto se enfoca en facilitar que la comunidad kichwa y los propietarios de negocios BIPOC expandan su negocio a una plataforma en línea, mediante la creación de un lugar central fácil de navegar donde se puede acceder a la información relacionada con el comercio electrónico en español e inglés.",
+    "p-1": "Además, la integración del comercio electrónico con Metaverse destaca la brecha de habilidades necesarias para seguir siendo rentable en el mercado abierto de hoy. La pregunta que queda es, ¿cómo se verán afectadas las pequeñas empresas que no pueden permitirse participar en tales espacios? Más específicamente, padres inmigrantes que se enfocaron en sobrevivir y no tuvieron el tiempo o las herramientas para adquirir el conocimiento técnico relevante.",
+    "p-2": "Al brindarles a los propietarios de pequeñas empresas las herramientas para iniciar un sitio web, esperamos empoderarlos y cerrar la brecha de habilidades tecnológicas en torno al comercio electrónico. Sabemos que no sucederá de la noche a la mañana, pero esperamos que se sientan empoderados y sus sitios web se conviertan en otra forma sostenible de ingresos para ellos y sus familias."
   },
   "gettingStarted": {
     "startingHeader": "Starting an E-Commerce Website",
@@ -69,7 +69,7 @@
     "extraTipsCopyAi": "An AI copywriting software like CopyAI can help you write your marketing content, but make sure your business' voice is coming through."
   },
   "tools": {
-    "toolsIntro" : "On this page you will find tools, resources and vocabulary that will help you navigate creating your e-commerce website.",
+    "toolsIntro": "On this page you will find tools, resources and vocabulary that will help you navigate creating your e-commerce website.",
     "toolsWebLink": "Website Tools",
     "toolsDesignLink": "Design Tools",
     "toolsMarketingLink": "Marketing Tools",
