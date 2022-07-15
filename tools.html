@@ -59,8 +59,8 @@
           class="pane d-flex flex-column justify-content-xxl-between justify-content-xl-around"
         >
           <div class="d-flex flex-column">
-            <h1 class="w-100 text-center">Tools</h1>
-            <p class="text-center">
+            <h1 class="w-100 text-center" data-i18n="navTools">Tools</h1>
+            <p class="text-center" data-i18n="toolsIntro">
               On this page you will find tools, resources and vocabulary that will help you navigate creating your e-commerce website.
             </p>
             <div class="d-flex justify-content-center my-3" style="max-height:385px">
@@ -70,9 +70,9 @@
           <section
             class="d-flex content-width my-3 flex-wrap justify-content-evenly align-items-center flex-lg-row flex-md-column"
           >
-            <a href="#WebsiteTools" class="button-links m-2">Website Tools</a>
-            <a href="#DesignTools" class="button-links m-2">Design Tools</a>
-            <a href="#MarketingTools" class="button-links m-2"
+            <a href="#WebsiteTools" class="button-links m-2" data-i18n="toolsWebLink">Website Tools</a>
+            <a href="#DesignTools" class="button-links m-2" data-i18n="toolsDesignLink">Design Tools</a>
+            <a href="#MarketingTools" class="button-links m-2" data-i18n="toolsMarketingLink"
               >Marketing Tools</a
             >
           </section>
@@ -86,8 +86,8 @@
           class="pane d-flex flex-column justify-content-xxl-around justify-content-xl-around"
         >
           <div class="d-flex mb-4 justify-content-between align-items-center">
-            <h1 class="m-0 w-50">Website Tools</h1>
-            <a href="#Tools" class="goto-top">Back to top</a>
+            <h1 class="m-0 w-50" data-i18n="toolsWebLink">Website Tools</h1>
+            <a href="#Tools" class="goto-top" data-i18n="comBackToTop">Back to top</a>
           </div>
           <div
             id="WebsiteCards"
@@ -103,8 +103,8 @@
           class="pane d-flex flex-column justify-content-xxl-around justify-content-xl-around"
         >
         <div class="d-flex mb-3 justify-content-between align-items-center">
-          <h1 class="m-0 w-50">Design Tools</h1>
-          <a href="#Tools" class="goto-top">Back to top</a>
+          <h1 class="m-0 w-50" data-i18n="toolsDesignLink">Design Tools</h1>
+          <a href="#Tools" class="goto-top" data-i18n="comBackToTop">Back to top</a>
         </div>
           <div
             id="DesignCards"
@@ -120,8 +120,8 @@
           class="pane d-flex flex-column justify-content-xxl-around justify-content-xl-around"
         >
         <div class="d-flex mb-3 justify-content-between align-items-center">
-          <h1 class="m-0 w-sm-50">Marketing Tools</h1>
-          <a href="#Tools" class="goto-top">Back to top</a>
+          <h1 class="m-0 w-sm-50" data-i18n="toolsMarketingLink">Marketing Tools</h1>
+          <a href="#Tools" class="goto-top" data-i18n="comBackToTop">Back to top</a>
         </div>
           <div
             id="MarketingCards"
@@ -138,7 +138,8 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./public/js/index.mjs" type="module"></script>
     <script src="./public/js/constants.js"></script>
-    <script src="./public/js/tools.js"></script>
+    <script src="./public/js/tools.mjs"></script>
   </body>
 </html>

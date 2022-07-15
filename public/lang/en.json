@@ -1,12 +1,164 @@
 {
-    "title" : "",
-    "footer" : "",
-    "index" : {
-        "p1" : "yeet"
-    },
-    "about" : { "p1" : "yeet" },
-    "gettingStarted" : { "p1" : "yeet" },
-    "tools" : { "p1" : "yeet" },
-    "contactUs" : { "p1" : "yeet" },
-    "donate" : { "p1" : "yeet" }
+  "com": {
+    "Title": "Project Mindalae",
+    "BackToTop": "Back To Top",
+    "References": "References",
+    "Footer": "This project was funded through the project Learning from Community Stories – the Impacts of COVID-19 by Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
+  },
+  "nav": {
+    "Home": "Home",
+    "About": "About",
+    "GettingStarted": "Getting Started",
+    "Tools": "Tools",
+    "ContactUs": "Contact Us",
+    "Donate": "Donate"
+  },
+  "index": {
+    "p-1": "Comprehensible e-commerce information for small business owners who want to learn about tools needed to set-up their store.",
+    "h4": "Photo by ",
+    "h1": "What is the Mindalae Project?",
+    "p-2": "Learn More",
+    "p-3": "A project focused on accesibility and simplicity, aimed at empowering small business owners on their e-commerce journey.",
+    "p-4": "That's where this site comes in!"
+  },
+  "about": {
+    "ourPurpose": "Our Purpose",
+    "ourVision": "Our Vision",
+    "theTeam": "The Team",
+    "school1": "M.A. in Policy Studies, B.A. in Environmental Studies",
+    "posTitle1": "Project Lead & Generator of Useful Ideas",
+    "funFact1": "Got extra credit in philosophy class",
+    "school2": "B.S. in Electrical Engineering",
+    "posTitle2": "Developer & Generator of Sometimes Useful Ideas",
+    "funFact2": "Did research on the language of crows",
+    "s-1": "This project is part of King County Communities of Opportunity's grant project that looked at the resilience of the Pueblo's Originarios Coalition during the pandemic. After 78 interviews, representing  3 different communities, this project was created in response to the Kichwa-Otavalo Community.",
+    "s-2": "The Kichwa-Otavalo Community primarily consists of small business owners who travel to fairs to sell their products or play traditional Andes music at festivals. While this community are experts with the work they do in person, the pandemic highlighted a tech skill gap on the integration of technology into their work.",
+    "s-3": "There is a lot of information about e-commerce online and loads of website builders. However, there lies the problem, there are too many options.",
+    "s-4": "For this generation using a search engine is second nature. However, after a years work with different BIPOC communities, it has become clear that gathering resources online is not easy for everyone and most people do not have the time. ",
+    "s-5": "To start addressing this, this project focuses on making it easier for the Kichwa community and BIPOC business owners alike to expand their business onto an online platform, by creating an easy to navigate hub spot where e-commerce related information is accessible in Spanish & English.",
+    "p-1": "Furthermore, the integration of e-commerce with the Metaverse highlights the skill gap needed to stay profitable in the open market of today. The question that remains is, how will small businesses that cannot afford to participate in such spaces be affected? More specifically, immigrant parents that focused on surviving and did not have the time or tools to gain the relevant technical knowledge.",
+    "p-2": "By giving small business owners the tools to start a website, we hope to empower them and close the technological skills gap around e-commerce. We know that it will not happen over night, but we hope that they feel empowered and their websites become another sustainable form of income for them and their families."
+  },
+  "gettingStarted": {
+    "startingHeader": "Starting an E-Commerce Website",
+    "startingParagraph": "So you want to take your business online and need help getting started. We are here to help! To do so, we will share information about what you will need. This guide consists of knowledge about how to get your website started, tools to create your website while keeping you organized and finally, resources to get started. Setting up these three things will help you take your business to the next level.",
+    "startingScrollDown": "Scroll down to learn more or select from the table of contents.",
+    "tableOfContents": "Table of Contents",
+    "tocWebsite": "Website",
+    "tocHostingSetup": "Hosting Setup",
+    "tocBrandEmail": "Brand Email",
+    "tocExtraTips": "Extra Tips",
+    "headerWebsite": "Website",
+    "websiteSetupSite": "Setting up a website consists of getting a <strong>domain</strong> and <strong>hosting server</strong>. Putting these two together, gives you a place to create your website and publish it for people to find. The <strong>domain</strong> will be the name of your website, 'business.com or .net, etc.'. The <strong>hosting server</strong> will be where you can build the website.",
+    "headerHostingSetup": "Hosting Setup",
+    "hostingSetupDomain": "A <strong>domain</strong> is the name of your website, this can be sold separately from the hosting server company you use. Other times, you can buy your domain (a.k.a. website name) through the same server company. A domain can either end in .net, .com, .org or others, depending on what you want. These different endings have different pricings, depending on where you buy them from. Make sure it’s one you really like and your customers will be able to find easily or remember.",
+    "hostingSetupHostingService": "A <strong>hosting service</strong> is the site that stores all your data, also known as everything you will put into the website from text to merchandise. A hosting site will literally be hosting you. Think of it as a space you rent for your store. That’s why when you put the domain and hosting site together, it’s like the domain is your business sign and the hosting site is your store, and now you can start to design the website.",
+    "hostingSetupPrices": "Prices",
+    "hostingSetupBuildPricing": "According to WebsiteBuilderExpert, prices can range from $2.49 – $13.95/month for <strong>shared hosting</strong> and $80 – $506/month for <strong>dedicated hosting</strong>.",
+    "hostingSetupHostingDiff": "The difference between the two hosting options is, <strong>dedicated hosting</strong> is more secure than <strong>shared hosting</strong> since it’s not on a shared server like shared hosting is. It’s on its own server. From a user’s perspective, loading a website on a dedicated hosting server is faster.",
+    "refCostToHost": "Website Builder Expert: Cost to host a website",
+    "headerBrandEmail": "Brand Email",
+    "brandEmailCustomers": "In order for customers to contact you or carry out other actions under the business, a business/brand email is very important. Make sure it contains your business name in it, for example, 'businessname@gmail.com'. It keeps you organized by separating personal email from business email. Each website builder like Wix, Square, etc, has different package levels where you can check whether they provide a custom email. There are also email campaigns that are an add-on.",
+    "brandEmailLinkBelow": "The link below compares the tools and features of the 11 best websites for 2022. By clicking on “Read Review”, it will open another tab just about that website builder and under Tools and Features you can find Email Marketing.",
+    "refBuilderReviews": "Best Website Builder 2022: We’ve Reviewed the 11 Best",
+    "headerExtraTips": "Extra Tips",
+    "extraTipsBiggestTip": "One of the biggest tips I can give from experience is, just do it. Creating a website and dealing with technology can be daunting and can sound like a lot. But if you truly feel like it is time and it is what you want to do. Do it. Take it step by step and enjoy the process. It is going to be hard work but it will also be fun.",
+    "extraTipsImportantMarketing": "Marketing is very important for the success of your business aside from attending festivals. If you do it well and long enough, marketing can increase your sales. It allows your website to be like another booth/store. The key here is to be consistent, get strategic and creative, but above all consistent since it will take time.",
+    "extraTipsConsiderThis": "Some thing to consider is, really get to know your audience and think about who they are. This will help you relate and cater more to your customers in the design and marketing of your website.",
+    "extraTipsTakePhotos": "Take photos of products before you publish your website so you can bulk upload them onto the website instead of going back and forth.",
+    "extraTipsCopyAi": "An AI copywriting software like CopyAI can help you write your marketing content, but make sure your business' voice is coming through."
+  },
+  "tools": {
+    "toolsIntro" : "On this page you will find tools, resources and vocabulary that will help you navigate creating your e-commerce website.",
+    "toolsWebLink": "Website Tools",
+    "toolsDesignLink": "Design Tools",
+    "toolsMarketingLink": "Marketing Tools",
+    "cards": {
+      "websiteTools": [
+        {
+          "type": "Wix",
+          "url": "https://www.wix.com/ecommerce/website",
+          "imgSrc": "Wix.png",
+          "desc": "Create an online store with the leading eCommerce platform"
+        },
+        {
+          "type": "Square Space",
+          "url": "https://www.squarespace.com/ecommerce-website",
+          "imgSrc": "Squarespace.png",
+          "desc": "Create a website that helps your business attract."
+        },
+        {
+          "type": "Weebly",
+          "url": "https://www.weebly.com/features/ecommerce-website",
+          "imgSrc": "Weebly.png",
+          "desc": "A surprisingly easy way to sell your products online."
+        },
+        {
+          "type": "Shopify",
+          "url": "https://www.shopify.com/tour/ecommerce-website",
+          "imgSrc": "Shopify.png",
+          "desc": "Easily build and run your ecommerce website."
+        },
+        {
+          "type": "Wordpress",
+          "url": "https://wordpress.com/ecommerce/",
+          "imgSrc": "Wordpress.png",
+          "desc": "Everything you need for a powerful, profitable site."
+        }
+      ],
+      "designTools": [
+        {
+          "type": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "imgSrc": "excalidraw.png",
+          "desc": "A free app where you can draw your website ideas and more. Make sure to download and to save!"
+        },
+        {
+          "type": "GoogleFonts",
+          "url": "https://fonts.google.com/",
+          "imgSrc": "googleFonts.jpg",
+          "desc": "Where you can find free fonts to plug into your site."
+        },
+        {
+          "type": "Unsplash",
+          "url": "https://unsplash.com/",
+          "imgSrc": "Unsplash.png",
+          "desc": "Where you can find free photos that you can download and use."
+        },
+        {
+          "type": "Canva",
+          "url": "https://www.canva.com/learn/ecommerce-website/",
+          "imgSrc": "canva.jpg",
+          "desc": "Templates to help you design the perfect e-commerce website."
+        }
+      ],
+      "marketingTools": [
+        {
+          "type": "Trello",
+          "url": "https://trello.com/en-US",
+          "imgSrc": "Trello.jpg",
+          "desc": "A free organization board that resembles sticky notes to make sure your tasks are on track."
+        },
+        {
+          "type": "Later",
+          "url": "https://later.com/",
+          "imgSrc": "Later.png",
+          "desc": "Allows you to schedule your instagram posts so you can save time and not have to do it every time you want to post."
+        },
+        {
+          "type": "CopyAi",
+          "url": "https://www.copy.ai/",
+          "imgSrc": "copyai.webp",
+          "desc": "Generate content to assit in marketing your business."
+        }
+      ]
+    }
+  },
+  "contactUs": {
+    "anyQuestions": "If you have questions or feedback please reach out to us ",
+    "emailLink": "here"
+  },
+  "donate": {
+    "beingDeveloped": "This page is still being developed! We appreciate your support"
+  }
 }

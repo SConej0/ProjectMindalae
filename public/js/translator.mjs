@@ -7,19 +7,20 @@ class Translator {
     this._options = Object.assign({}, this.defaultConfig, options);
     this._lang = this.getLanguage();
     this._elements = document.querySelectorAll("[data-i18n]");
+    this._translations = {en,es}
   }
 
   getLanguage() {
     if (!this._options.detectLanguage) {
       return this._options.defaultLanguage;
     }
-    
+
     var stored = localStorage.getItem("language");
 
     if (this._options.persist && stored) {
       return stored;
     }
-    
+
     var lang = navigator.languages ? navigator.languages[0] : navigator.language;
 
     return lang.substr(0, 2);
@@ -60,6 +61,11 @@ class Translator {
       }
     }
     this._elements.forEach(replace);
+  }
+
+  getLanguageProperty(pageName,propertyName){
+    const {_lang,_translations} = this
+    return _translations[_lang][pageName][propertyName]
   }
 
   get defaultConfig() {
