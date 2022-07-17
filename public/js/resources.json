@@ -1,0 +1,56 @@
+{
+  "websiteTools": [
+    {
+      "url": "https://www.wix.com/ecommerce/website",
+      "imgSrc": "Wix.png"
+    },
+    {
+      "url": "https://www.squarespace.com/ecommerce-website",
+      "imgSrc": "Squarespace.png"
+    },
+    {
+      "url": "https://www.weebly.com/features/ecommerce-website",
+      "imgSrc": "Weebly.png"
+    },
+    {
+      "url": "https://www.shopify.com/tour/ecommerce-website",
+      "imgSrc": "Shopify.png"
+    },
+    {
+      "url": "https://wordpress.com/ecommerce/",
+      "imgSrc": "Wordpress.png"
+    }
+  ],
+  "designTools": [
+    {
+      "url": "https://excalidraw.com/",
+      "imgSrc": "excalidraw.png"
+    },
+    {
+      "url": "https://fonts.google.com/",
+      "imgSrc": "googleFonts.jpg"
+    },
+    {
+      "url": "https://unsplash.com/",
+      "imgSrc": "Unsplash.png"
+    },
+    {
+      "url": "https://www.canva.com/learn/ecommerce-website/",
+      "imgSrc": "canva.jpg"
+    }
+  ],
+  "marketingTools": [
+    {
+      "url": "https://trello.com/en-US",
+      "imgSrc": "Trello.jpg"
+    },
+    {
+      "url": "https://later.com/",
+      "imgSrc": "Later.png"
+    },
+    {
+      "url": "https://www.copy.ai/",
+      "imgSrc": "copyai.webp"
+    }
+  ]
+}

@@ -23,7 +23,7 @@ class Translator {
 
     var lang = navigator.languages ? navigator.languages[0] : navigator.language;
 
-    return lang.substr(0, 2);
+    return lang.substr(2);
   }
 
   load(pageName,lang = null) {
@@ -74,7 +74,6 @@ class Translator {
       languages: ["en","es"],
       defaultLanguage: "en",
       detectLanguage: true,
-      filesLocation: "/i18n"
     };
   }
 }
