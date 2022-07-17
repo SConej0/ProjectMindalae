@@ -1,5 +1,3 @@
-import resources from './resources.json' assert {type: 'json'};
-
 const cardTemplate = ({type, desc, url, imgSrc}) => `
 <div class="m-3 card color-secondary text-center align-items-center" style="width: 18rem;">
   <img src="./public/img/${imgSrc}" loading="lazy" class="mt-4 card-img-top w-75" alt="${type} Logo"/>
@@ -23,15 +21,15 @@ const renderWebToolCards = ({websiteTools,designTools,marketingTools}) => {
   const toolSections = {
     webToolsNode: {
       node: document.querySelector("#WebsiteCards"),
-      template: {...websiteTools, ...resources.websiteTools},
+      template: websiteTools,
     },
     designToolsNode: {
       node: document.querySelector("#DesignCards"),
-      template: {...designTools, ...resources.designTools},
+      template: designTools,
     },
     marketToolsNode: {
       node: document.querySelector("#MarketingCards"),
-      template: {...designTools, ...resources.designTools},
+      template: marketingTools,
     },
   };
 

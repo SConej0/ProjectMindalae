@@ -77,54 +77,78 @@
       "websiteTools": [
         {
           "type": "Wix",
+          "url": "https://www.wix.com/ecommerce/website",
+          "imgSrc": "Wix.png",
           "desc": "Crea una tienda en línea con la plataforma de comercio electrónico líder"
         },
         {
           "type": "Square Space",
+          "url": "https://www.squarespace.com/ecommerce-website",
+          "imgSrc": "Squarespace.png",
           "desc": "Cree un sitio web que ayude a su negocio a atraer"
         },
         {
           "type": "Weebly",
+          "url": "https://www.weebly.com/features/ecommerce-website",
+          "imgSrc": "Weebly.png",
           "desc": "Una manera sorprendentemente fácil de vender sus productos en línea"
         },
         {
           "type": "Shopify",
+          "url": "https://www.shopify.com/tour/ecommerce-website",
+          "imgSrc": "Shopify.png",
           "desc": "Cree y ejecute fácilmente su sitio web de comercio electrónico"
         },
         {
           "type": "Wordpress",
+          "url": "https://wordpress.com/ecommerce/",
+          "imgSrc": "Wordpress.png",
           "desc": "Todo lo que necesita para un sitio poderoso y rentable"
         }
       ],
       "designTools": [
         {
           "type": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "imgSrc": "excalidraw.png",
           "desc": "Una aplicación gratuita donde puedes dibujar las ideas de tu sitio web y más. ¡Asegúrate de descargar y guardar!"
         },
         {
           "type": "GoogleFonts",
+          "url": "https://fonts.google.com/",
+          "imgSrc": "googleFonts.jpg",
           "desc": "Dónde puede encontrar fuentes gratuitas para conectar a su sitio"
         },
         {
           "type": "Unsplash",
+          "url": "https://unsplash.com/",
+          "imgSrc": "Unsplash.png",
           "desc": "Donde puedes encontrar fotos gratis que puedes descargar y usar"
         },
         {
           "type": "Canva",
+          "url": "https://www.canva.com/learn/ecommerce-website/",
+          "imgSrc": "canva.jpg",
           "desc": "Plantillas para ayudarlo a diseñar el sitio web de comercio electrónico perfecto"
         }
       ],
       "marketingTools": [
         {
           "type": "Trello",
+          "url": "https://trello.com/es",
+          "imgSrc": "Trello.jpg",
           "desc": "Un tablero de organización gratuito que se asemeja a notas adhesivas para asegurarse de que sus tareas estén en orden"
         },
         {
           "type": "Later",
+          "url": "https://later.com/",
+          "imgSrc": "Later.png",
           "desc": "Te permite programar tus publicaciones de instagram para que ahorres tiempo y no tengas que hacerlo cada vez que quieras publicar"
         },
         {
           "type": "CopyAi",
+          "url": "https://www.copy.ai/",
+          "imgSrc": "copyai.webp",
           "desc": "Genere contenido para ayudar en la comercialización de su negocio"
         }
       ]
