@@ -1,13 +1,19 @@
-"use strict";
-import en from '../lang/en.json' assert {type: 'json'};
-import es from '../lang/es.json' assert {type: 'json'};
+// import en from '../lang/en.json' assert {type: 'json'};
+// import es from '../lang/es.json' assert {type: 'json'};
 
 class Translator {
   constructor(options = {}) {
     this._options = Object.assign({}, this.defaultConfig, options);
     this._lang = this.getLanguage();
     this._elements = document.querySelectorAll("[data-i18n]");
-    this._translations = {en,es}
+    this._translations = JSON.parse(localStorage.getItem('translations')) || {}
+  }
+
+  async #getTranslationFromFile(){
+    const res = await fetch(`./public/lang/${this._lang}.json`)
+    const translation = await res.json()
+    localStorage.setItem('translations',JSON.stringify(translation))
+    this._translations[this._lang] = translation
   }
 
   getLanguage() {
@@ -15,7 +21,7 @@ class Translator {
       return this._options.defaultLanguage;
     }
 
-    var stored = localStorage.getItem("language");
+    const stored = localStorage.getItem("language");
 
     if (this._options.persist && stored) {
       return stored;
@@ -26,13 +32,16 @@ class Translator {
     return lang.substr(2);
   }
 
-  load(pageName,lang = null) {
+  async load(pageName,lang = null) {
     if (lang) {
       if (!this._options.languages.includes(lang)) {
         return;
       }
-
       this._lang = lang;
+    }
+
+    if(!this._translations[this._lang]){
+      await this.#getTranslationFromFile()
     }
 
     this.translate(pageName);
@@ -48,23 +57,26 @@ class Translator {
       document.documentElement.lang = this._lang;
     }
   }
-  
+
   translate(pageName) {
+    const {_translations,_lang} = this
     function replace(element) {
       var text = element.dataset.i18n
       if(text.includes('com')){
-        element.innerHTML = es.com[text.substr(3)]
+        element.innerHTML = _translations[_lang].com[text.substr(3)]
       } else if (text.includes('nav')){
-        element.innerHTML = es.nav[text.substr(3)]
+        element.innerHTML = _translations[_lang].nav[text.substr(3)]
       } else {
-        element.innerHTML = es[pageName][text]
+        element.innerHTML = _translations[_lang][pageName][text]
       }
     }
     this._elements.forEach(replace);
   }
 
-  getLanguageProperty(pageName,propertyName){
+  async getLanguageProperty(pageName,propertyName){
     const {_lang,_translations} = this
+    if(!_translations[_lang]) await this.#getTranslationFromFile()
+
     return _translations[_lang][pageName][propertyName]
   }
 
