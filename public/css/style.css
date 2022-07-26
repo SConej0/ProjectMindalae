@@ -173,6 +173,10 @@ section {
   width: 85%;
 }
 
+.mt-6 {
+  margin-top: 7rem !important;
+}
+
 .my-6 {
   margin: 7rem 0rem !important;
 }
@@ -316,7 +320,7 @@ input:checked + .slider:before {
   color: var(--tertiary-color)
 }
 
-#toolsImage {
+.toolsImage {
   width: 100%;
   object-fit: cover;
 }
@@ -337,7 +341,7 @@ and (max-width : 1280px) {
 @media only screen 
 and (max-width : 992px) {
   :root {
-    --h1-size: 38px;
+    --h1-size: 32px;
     --h2-size: 30px;
     --btn-padding: 0.25rem;
     --btn-text-size: 24px;
@@ -364,5 +368,12 @@ and (max-width : 992px) {
 
   .mb-sm-6{
     margin-bottom: 7rem !important;
+  }
+
+  #introduction {
+    justify-content: space-around;
+    max-width: 100%;
+    height: 100%;
+    color: var(--tertiary-color)
   }
 }

@@ -42,35 +42,15 @@
   "gettingStarted": {
     "startingHeader": "Comenzando un Sitio Web de Comercio Electrónico",
     "startingParagraph": "Así que quiere poner su negocio en línea y necesita ayuda para empezar. ¡Estamos aquí para ayudar! Para hacerlo, compartiremos información sobre lo que necesitará. Esta guía consiste en conocimientos sobre cómo iniciar su sitio web, herramientas para crear su sitio web mientras lo mantiene organizado y, finalmente, recursos para comenzar. Configurar estas tres cosas lo ayudará a llevar su negocio al siguiente nivel.",
-    <section
-        id="GettingStarted"
-        class="d-flex justify-content-center align-items-center double-column column-width"
-      >
-   <p class="textcenter"> 
-             KPI - Indicador Clave de Desempeño
-            </p>
-            <p class="textcenter">
-             ¿Qué significa esto? Los indicadores serán objetivos que establezca y seguirán. Le dirán qué tan cerca o lejos está de un objetivo comercial. Al usar estos indicadores y leer los datos de su negocio, podrá tener una mejor idea de qué partes de su negocio van bien y qué áreas necesitan mejorar. Un ejemplo de un KPI es el crecimiento de los ingresos o las ventas por región.
-            </p>
-            <p class="textcenter">
-             SEO - Optimización de Motores de Búsqueda
-            </p>  
-            <p class="textcenter">
-             ¿Qué significa esto? Este es el proceso que se encarga de impulsar la calidad y cantidad de tráfico a su sitio web. En otras palabras, el SEO se refiere a las técnicas que ayudan a que su sitio web se encuentre más fácilmente en las páginas de resultados de los motores de búsqueda (SERP) como Google.
-            </p>
-            <p class="textcenter">
-             SERP - Página de Resultados del Motor de Búsqueda
-            </p>
-             <p class="textcenter">
-             ¿Qué significa esto? Ejemplos de SERPS son páginas como Google, Bing, Yahoo y Yelp. Páginas donde se listará cualquier elemento buscado.
-            </p>
-            <p class="textcenter">
-             ADI - Inteligencia de Diseño Artificial 
-            </p>
-            <p class="textcenter">
-             ¿Qué significa esto? Es una plataforma que te permite construir un sitio web con solo insertar cierta y limitada información sobre lo que deseas.
-
-        </p>
+    "vocabHeader" : "Vocabulario",
+    "vocabKpiTitle" : "<strong>KPI - Indicador Clave de Desempeño</strong>",
+    "vocabKpiDesc" : "¿Qué significa esto? Los indicadores serán objetivos que establezca y seguirán. Le dirán qué tan cerca o lejos está de un objetivo comercial. Al usar estos indicadores y leer los datos de su negocio, podrá tener una mejor idea de qué partes de su negocio van bien y qué áreas necesitan mejorar. Un ejemplo de un KPI es el crecimiento de los ingresos o las ventas por región.",
+    "vocabSeoTitle" : "<strong>SEO - Optimización de Motores de Búsqueda</strong>",
+    "vocabSeoDesc" : "¿Qué significa esto? Este es el proceso que se encarga de impulsar la calidad y cantidad de tráfico a su sitio web. En otras palabras, el SEO se refiere a las técnicas que ayudan a que su sitio web se encuentre más fácilmente en las páginas de resultados de los motores de búsqueda (SERP) como Google.",
+    "vocabSerpTitle" : "<strong>SERP - Página de Resultados del Motor de Búsqueda</strong>",  
+    "vocabSerpDesc" : "¿Qué significa esto? Ejemplos de SERPS son páginas como Google, Bing, Yahoo y Yelp. Páginas donde se listará cualquier elemento buscado.",
+    "vocabAdiTitle" : "<strong>ADI - Inteligencia de Diseño Artificial</strong>",
+    "vocabAdiDesc" : "¿Qué significa esto? Es una plataforma que te permite construir un sitio web con solo insertar cierta y limitada información sobre lo que deseas.",   
     "startingScrollDown": "Desplácese hacia abajo para obtener más información o seleccione de la tabla de contenido.",
     "tableOfContents": "Tabla de Contenido",
     "tocWebsite": "Sitio Web",

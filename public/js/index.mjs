@@ -5,8 +5,8 @@ const Translation = new Translator()
 const pageName = window.location.pathname.split(/[\/\.]/g)[1] || "index"
 const langSwitch = document.querySelector('#langSw')
 
-const loadCards = () => {
-    const cards = Translation.getLanguageProperty(pageName,'cards')
+const loadCards = async () => {
+    const cards = await Translation.getLanguageProperty(pageName,'cards')
     ToolsUtil(cards)
 }
 
