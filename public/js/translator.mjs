@@ -17,15 +17,16 @@ class Translator {
   }
 
   getLanguage() {
-    if (!this._options.detectLanguage) {
-      return this._options.defaultLanguage;
-    }
-
     const stored = localStorage.getItem("language");
 
     if (this._options.persist && stored) {
       return stored;
     }
+    
+    if (!this._options.detectLanguage) {
+      return this._options.defaultLanguage;
+    }
+
 
     var lang = navigator.languages ? navigator.languages[0] : navigator.language;
 
@@ -82,9 +83,9 @@ class Translator {
 
   get defaultConfig() {
     return {
-      persist: false,
+      persist: true,
       languages: ["en","es"],
-      defaultLanguage: "en",
+      defaultLanguage: "es",
       detectLanguage: true,
     };
   }

@@ -2,6 +2,7 @@ import Translator from "./translator.mjs"
 import ToolsUtil from "./tools.mjs"
 
 const Translation = new Translator()
+const lang = localStorage.getItem("language") || undefined
 const pageName = window.location.pathname.split(/[\/\.]/g)[1] || "index"
 const langSwitch = document.querySelector('#langSw')
 
@@ -11,10 +12,11 @@ const loadCards = async () => {
 }
 
 const init = () => {
-    Translation.load(pageName,'es')
-    if(pageName === 'tools') loadCards()
-    langSwitch.dataset.lang = Translation._lang
     langSwitch.checked = Translation._lang === 'en'
+
+    Translation.load(pageName,lang)
+    langSwitch.dataset.lang = Translation._lang
+    if(pageName === 'tools') loadCards()
 }
 
 langSwitch?.addEventListener('click',(evt) => {
