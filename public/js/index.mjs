@@ -13,7 +13,6 @@ const loadCards = async () => {
 
 const init = () => {
     langSwitch.checked = Translation._lang === 'en'
-
     Translation.load(pageName,lang)
     langSwitch.dataset.lang = Translation._lang
     if(pageName === 'tools') loadCards()

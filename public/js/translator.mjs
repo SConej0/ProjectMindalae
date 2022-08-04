@@ -30,7 +30,7 @@ class Translator {
 
     var lang = navigator.languages ? navigator.languages[0] : navigator.language;
 
-    return lang.substr(2);
+    return lang.substring(0,2);
   }
 
   async load(pageName,lang = null) {

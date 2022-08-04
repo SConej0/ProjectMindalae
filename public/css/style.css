@@ -14,7 +14,9 @@
   --quaternary-color: #ffbf46;
   --nav-border-size : 2px;
   --pane-height : 550px;
+  --margin-swap : 1rem;
   --column-width : 70%;
+  --bottom-margin : 6rem;
   --text-alignment : left ;
   --display-type : inline;
 }
@@ -286,6 +288,11 @@ section {
   transition: .4s;
 }
 
+.toolsImage {
+  width: 100%;
+  object-fit: cover;
+}
+
 input:checked + .slider {
   background-color: #2196F3;
 }
@@ -313,6 +320,11 @@ input:checked + .slider:before {
   color: #7e6330;
 }
 
+#frontPageImage {
+  margin-left: var(--margin-swap);
+  margin-right: var(--margin-swap);
+}
+
 #introduction {
   justify-content: space-around;
   max-width: 55%;
@@ -320,13 +332,11 @@ input:checked + .slider:before {
   color: var(--tertiary-color)
 }
 
-.toolsImage {
-  width: 100%;
-  object-fit: cover;
+#noHeight > section {
+  margin:auto;
+  min-height: 0%;
+  margin-bottom: var(--bottom-margin);
 }
-
-
-
 
 @media only screen 
 and (max-width : 1280px) {
@@ -335,6 +345,7 @@ and (max-width : 1280px) {
     --h2-size: 30px;
     --pane-height : 770px;
     --column-width : 80%;
+    --bottom-margin : 4rem;
   }
 }
 
@@ -348,6 +359,8 @@ and (max-width : 992px) {
     --goto-text-size: 18px;
     --nav-border-size : 0px;
     --pane-height : 850px;
+    --margin-swap : auto;
+    --bottom-margin : 4rem;
     --text-alignment : center;
     --display-type : block;
   }

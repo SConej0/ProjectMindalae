@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project Mindalai - Getting Started</title>
+    <title>Project Mindalae - Getting Started</title>
     <link rel="stylesheet" href="./public/css/reset.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="d-flex justify-content-lg-between justify-content-md-start">
-      <h1 class="mb-0 p-2 d-none d-lg-block" data-i18n="comTitle">The Mindalae Project</h1>
+      <h1 class="mb-0 p-2 d-none d-lg-block" data-i18n="comTitle">Project Mindalae</h1>
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,22 +24,22 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="d-flex flex-column justify-content-center nav-item text-center align-left">
+              <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
                 <a class="nav-link" href="./index.html" data-i18n="navHome">Home</a>
               </li>
-              <li class="d-flex flex-column justify-content-center nav-item text-center align-left">
+              <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
                 <a class="nav-link" href="./about.html" data-i18n="navAbout">About</a>
               </li>
-              <li class="d-flex flex-column justify-content-center nav-item text-center align-left">
+              <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
                 <a class="nav-link active" aria-current="page" href="#" data-i18n="navGettingStarted">Getting Started</a>
               </li>
-              <li class="d-flex flex-column justify-content-center nav-item text-center align-left">
+              <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
                 <a class="nav-link" href="./tools.html" data-i18n="navTools">Tools</a>
               </li>
-              <li class="d-flex flex-column justify-content-center nav-item text-center align-left">
+              <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
                 <a class="nav-link" href="./contactUs.html" data-i18n="navContactUs">Contact Us</a>
               </li>
-              <li class="d-flex flex-column justify-content-center nav-item text-center align-left">
+              <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
                 <a class="nav-link" href="./donate.html" data-i18n="navDonate">Donate</a>
               </li>
               <li class="d-flex flex-column justify-content-center nav-item text-lg-center align-left">
@@ -52,9 +52,9 @@
           </div>
         </div>
       </nav>
-      <h1 class="mb-0 p-2 d-block d-lg-none" data-i18n="comTitle">The Mindalae Project</h1>
+      <h1 class="mb-0 p-2 d-block d-lg-none" data-i18n="comTitle">Project Mindalae</h1>
     </header>
-    <main>
+    <main id="noHeight">
       <section
         id="GettingStarted"
         class="d-flex mt-xs-2 justify-content-center align-items-center double-column column-width"
@@ -82,8 +82,9 @@
           >
             <h2 class="p-1 text-center border-bottom" data-i18n="tableOfContents">Table of Contents</h2>
             <section
-              class="d-flex flex-wrap justify-content-evenly align-items-center flex-lg-column flex-md-column"
+              class="d-flex flex-column justify-content-evenly align-items-center"
             >
+              <a href="#Vocabulary" class="button-links m-2" data-i18n="vocabHeader">Vocabulary</a>
               <a href="#Website" class="button-links m-2" data-i18n="tocWebsite">Website</a>
               <a href="#HostingSetup" class="button-links m-2" data-i18n="tocHostingSetup">Hosting Setup</a>
               <a href="#BrandEmail" class="button-links m-2" data-i18n="tocBrandEmail">Brand Email</a>
@@ -93,15 +94,15 @@
         </div>
       </section>
       <section
-        id="Website"
+        id="Vocabulary"
         class="d-flex flex-column justify-content-around double-column column-width"
       >
-        <div class="pane">
+        <div>
           <div class="d-flex flex-column flex-lg-row mb-3 justify-content-between align-items-center">
             <h1 class="textCenter" data-i18n="vocabHeader">Vocabulary</h1>
             <a href="#GettingStarted" class="goto-top" data-i18n="comBackToTop">Back to top</a>
           </div>
-          <p class="textcenter" data-i18n="vocabKpiTitle"> 
+          <p class="textCenter" data-i18n="vocabKpiTitle"> 
             KPI - Key Performance Indicator
            </p>
            <p class="textcenter" data-i18n="vocabKpiDesc">
@@ -131,7 +132,7 @@
         id="Website"
         class="d-flex flex-column justify-content-around double-column column-width"
       >
-        <div class="pane">
+        <div>
           <div class="d-flex flex-column flex-lg-row mb-3 justify-content-between align-items-center">
             <h1 class="m--0 textCenter" data-i18n="headerWebsite">Website</h1>
             <a href="#GettingStarted" class="goto-top" data-i18n="comBackToTop">Back to top</a>
@@ -151,7 +152,7 @@
         id="HostingSetup"
         class="d-flex flex-column justify-content-around double-column column-width"
       >
-        <div class="pane">
+        <div>
           <div class="d-flex flex-column flex-lg-row mb-3 justify-content-between align-items-center">
             <h1 class="m--0 textCenter" data-i18n="headerHostingSetup">Hosting Setup</h1>
             <a href="#GettingStarted" class="goto-top" data-i18n="comBackToTop">Back to top</a>
@@ -205,7 +206,7 @@
         id="BrandEmail"
         class="d-flex flex-column justify-content-around double-column column-width"
       >
-        <div class="pane">
+        <div>
           <div class="d-flex flex-column flex-lg-row mb-3 justify-content-between align-items-center">
             <h1 class="m--0 textCenter" data-i18n="headerBrandEmail">Brand Email</h1>
             <a href="#GettingStarted" class="goto-top" data-i18n="comBackToTop">Back to top</a>
@@ -242,7 +243,7 @@
         id="ExtraTips"
         class="d-flex flex-column justify-content-around double-column column-width"
       >
-        <div class="pane">
+        <div>
           <div class="d-flex flex-column flex-lg-row mb-3 justify-content-between align-items-center">
             <h1 class="m--0 textCenter" data-i18n="headerExtraTips">Extra Tips</h1>
             <a href="#GettingStarted" class="goto-top" data-i18n="comBackToTop">Back to top</a>
