@@ -1,1 +1,2 @@
 # ProjectMindalea
+After 78 interviews, representing 3 different indigenous communities, this project was created in response to the Kichwa-Otavalo Community. Project Mindalae is an informational website focused on accesibility, that allows access to resources small business owners can use to build their own small business website and get into e-commerce. It is guided with arrows, includes an about page, basics of what is needed to create a website and an interactive tools page. 
