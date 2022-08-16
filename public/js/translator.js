@@ -1,5 +1,9 @@
-// import en from '../lang/en.json' assert {type: 'json'};
-// import es from '../lang/es.json' assert {type: 'json'};
+/**
+ * The Translator class handles detecting the users language and loading the translation for each page.
+ * 
+ * Class is a modified version of the simple-translator project by andreasremdt
+ * https://github.com/andreasremdt/simple-translator/blob/master/src/translator.js
+ */
 
 class Translator {
   constructor(options = {}) {
@@ -22,7 +26,7 @@ class Translator {
     if (this._options.persist && stored) {
       return stored;
     }
-    
+
     if (!this._options.detectLanguage) {
       return this._options.defaultLanguage;
     }
@@ -91,4 +95,4 @@ class Translator {
   }
 }
 
-export default Translator;
+// export default Translator;

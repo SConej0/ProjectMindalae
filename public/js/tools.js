@@ -4,7 +4,7 @@ const cardTemplate = ({type, desc, url, imgSrc}) => `
   <div class="d-flex card-body flex-column align-items-start">
     <h5 class="card-title text-quaternary">${type}</h5>
     <p class="text-tertiary flex-grow-1 text-medium text-start">${desc}</p>
-    <a href="${url}" class="btn color-primary text-quaternary" target="_blank">Build with ${type}</a>
+    <a href="${url}" class="btn color-primary text-quaternary" target='_blank' rel='noopener'>Build with ${type}</a>
   </div>
 </div>
 `
@@ -37,5 +37,3 @@ const renderWebToolCards = ({websiteTools,designTools,marketingTools}) => {
     (key) => (toolSections[key].node.innerHTML = reduceToCards(toolSections[key].template))
   );
 };
-
-export default renderWebToolCards;

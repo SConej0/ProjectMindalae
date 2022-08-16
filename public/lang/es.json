@@ -3,7 +3,7 @@
     "Title": "Proyecto Mindalae",
     "BackToTop": "Back To Top",
     "References": "References",
-    "Footer": "Este proyecto fue financiado a través del proyecto Learning from Aprendiendo de las Historias de la Comunidad: los Impactos de COVID-19 por Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
+    "Footer": "Este proyecto fue financiado a través del proyecto Learning from Aprendiendo de las Historias de la Comunidad: los Impactos de COVID-19 por Communities of Opportunity: <a href='https://www.coopartnerships.org' target='_blank' rel='noopener'>https://www.coopartnerships.org</a>"
   },
   "nav": {
     "Home": "Inicio",
@@ -15,7 +15,7 @@
   },
   "index": {
     "indexComprehensible": "Información comprensible de comercio electrónico para propietarios de pequeñas empresas que desean conocer las herramientas necesarias para configurar su tienda.",
-    "indexPhotoBy": "Foto por <a href='https://unsplash.com/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Domenico Loia</a> en <a href='https://unsplash.com/s/photos/e-commerce-website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>",
+    "indexPhotoBy": "Foto por <a href='https://unsplash.com/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' target='_blank' rel='noopener'>Domenico Loia</a> en <a href='https://unsplash.com/photos/EhTcC9sYXsw' target='_blank' rel='noopener'>Unsplash</a>",
     "indexWhatIsMindalae": "Que es el Proyecto Mindalae?",
     "indexLearnMore": "Aprende Mas",
     "indexAccessibility": "Un proyecto centrado en la accesibilidad y la simplicidad, destinado a empoderar a los propietarios de pequeñas empresas en su viaje de comercio electrónico.",
@@ -80,6 +80,7 @@
   },
   "tools": {
     "toolsIntro": "En esta página encontrarás herramientas, recursos y vocabulario que te ayudarán a navegar creando tu sitio web de comercio electrónico.",
+    "toolsPhotoBy" : "Foto por <a href='https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' target='_blank' rel='noopener'>Kelly Sikkema</a> en <a href='https://unsplash.com/photos/v9FQR4tbIq8' target='_blank' rel='noopener'>Unsplash</a>",
     "toolsWebLink": "Herramientas del Sitio Web",
     "toolsDesignLink": "Herramientas de Diseño",
     "toolsMarketingLink": "Herramientas de Marketing",

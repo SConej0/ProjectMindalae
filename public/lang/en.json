@@ -3,7 +3,7 @@
     "Title": "Project Mindalae",
     "BackToTop": "Back To Top",
     "References": "References",
-    "Footer": "This project was funded through the project Learning from Community Stories – the Impacts of COVID-19 by Communities of Opportunity: <a href='https://www.coopartnerships.org'>https://www.coopartnerships.org</a>"
+    "Footer": "This project was funded through the project Learning from Community Stories – the Impacts of COVID-19 by Communities of Opportunity: <a href='https://www.coopartnerships.org' target='_blank' rel='noopener'>https://www.coopartnerships.org</a>"
   },
   "nav": {
     "Home": "Home",
@@ -15,7 +15,7 @@
   },
   "index": {
     "indexComprehensible": "Comprehensible e-commerce information for small business owners who want to learn about tools needed to set-up their store.",
-    "indexPhotoBy": "Photo by <a href='https://unsplash.com/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Domenico Loia</a> on <a href='https://unsplash.com/s/photos/e-commerce-website?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>",
+    "indexPhotoBy": "Photo by <a href='https://unsplash.com/@domenicoloia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' target='_blank' rel='noopener'>Domenico Loia</a> on <a href='https://unsplash.com/photos/EhTcC9sYXsw' target='_blank' rel='noopener'>Unsplash</a>",
     "indexWhatIsMindalae": "What is Project Mindalae?",
     "indexLearnMore": "Learn More",
     "indexAccessibility": "A project focused on accesibility and simplicity, aimed at empowering small business owners on their e-commerce journey.",
@@ -80,6 +80,7 @@
   },
   "tools": {
     "toolsIntro" : "On this page you will find tools, resources and vocabulary that will help you navigate creating your e-commerce website.",
+    "toolsPhotoBy" : "Photo by <a href='https://unsplash.com/@kellysikkema?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText' target='_blank' rel='noopener'>Kelly Sikkema</a> on <a href='https://unsplash.com/photos/v9FQR4tbIq8' target='_blank' rel='noopener'>Unsplash</a>",
     "toolsWebLink": "Website Tools",
     "toolsDesignLink": "Design Tools",
     "toolsMarketingLink": "Marketing Tools",
