@@ -1,6 +1,3 @@
-// import Translator from "./translator.js"
-// import ToolsUtil from "./tools.mjs"
-
 const Translation = new Translator()
 const lang = localStorage.getItem("language") || undefined
 const pageName = window.location.pathname.split(/[\/\.]/g)[1] || "index"

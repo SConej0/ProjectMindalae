@@ -1,6 +1,3 @@
-// import en from '../lang/en.json' assert {type: 'json'};
-// import es from '../lang/es.json' assert {type: 'json'};
-
 class Translator {
   constructor(options = {}) {
     this._options = Object.assign({}, this.defaultConfig, options);
