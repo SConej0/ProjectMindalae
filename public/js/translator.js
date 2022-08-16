@@ -22,7 +22,7 @@ class Translator {
     if (this._options.persist && stored) {
       return stored;
     }
-    
+
     if (!this._options.detectLanguage) {
       return this._options.defaultLanguage;
     }
@@ -91,4 +91,4 @@ class Translator {
   }
 }
 
-export default Translator;
+// export default Translator;

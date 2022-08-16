@@ -37,5 +37,3 @@ const renderWebToolCards = ({websiteTools,designTools,marketingTools}) => {
     (key) => (toolSections[key].node.innerHTML = reduceToCards(toolSections[key].template))
   );
 };
-
-export default renderWebToolCards;

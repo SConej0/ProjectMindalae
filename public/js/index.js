@@ -1,5 +1,5 @@
-import Translator from "./translator.mjs"
-import ToolsUtil from "./tools.mjs"
+// import Translator from "./translator.js"
+// import ToolsUtil from "./tools.mjs"
 
 const Translation = new Translator()
 const lang = localStorage.getItem("language") || undefined
@@ -8,7 +8,7 @@ const langSwitch = document.querySelector('#langSw')
 
 const loadCards = async () => {
     const cards = await Translation.getLanguageProperty(pageName,'cards')
-    ToolsUtil(cards)
+    renderWebToolCards(cards)
 }
 
 const init = () => {
